@@ -1,0 +1,40 @@
+.container-work {
+  display: flex;
+}
+
+.img {
+  height: 12vh;
+  margin-right: 2vh;
+  border-radius: 1vh;
+}
+
+.container-text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.position-work {
+  margin: 0;
+  margin-bottom: 1vh;
+  font-size: 3vh;
+  font-family: "Bad Script", cursive;
+  color: #3f0000;
+}
+
+.description {
+  text-align: left;
+  font-family: "Edu TAS Beginner", cursive;
+  color: #3f0000;
+  margin: 0;
+  font-size: 2.5vh;
+  font-weight: 600;
+}
+
+.time {
+  font-family: "Edu TAS Beginner", cursive;
+  color: #3f0000;
+  margin: 0;
+  margin-bottom: 1.5vh;
+  font-size: 2vh;
+}

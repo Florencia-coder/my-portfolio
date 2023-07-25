@@ -1,0 +1,28 @@
+/*
+1. Posicionamiento
+2. Modelo de caja (Box Model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+:root {
+  /* Colores */
+  --board: #3f0000;
+  --background-main: #fbeff2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Merienda", cursive;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}

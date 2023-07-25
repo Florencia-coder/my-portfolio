@@ -1,0 +1,29 @@
+.skill-card {
+  max-width: 90vh;
+  background-color: transparent;
+  border-color: #bc4e72;
+  border-width: 0.3vh;
+  border-style: solid;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 2vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-skill {
+  font-size: 4vh;
+  font-family: "Edu TAS Beginner", cursive;
+  font-weight: 900;
+  margin: auto;
+  color: #3f0000;
+}
+
+.container-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HeaderPage from "./components/headerPage/HeaderPage";
+import PersonalCard from "./components/personalCard/PersonalCard";
+import SectionProjects from "./components/sectionProjects/SectionProjects";
+import SkillsCard from "./components/skillsCard/SkillsCard";
+import {
+  skillsFrontEnd,
+  skillsBackEnd,
+  skillsTools,
+  skillsTesting,
+} from "./components/utils";
+import WorkExperienceCard from "./components/workExperienceCard/WorkExperienceCard";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeaderPage />
+      <main className="App">
+        <PersonalCard />
+        {/* <div
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+          flexWrap: "wrap",
+          margin: "5vh",
+        }}
+      >
+        
+        <div style={{ display: "grid", gridGap: "6vh" }}>
+          <SkillsCard skills={skillsFrontEnd} title="Front end" />
+          <SkillsCard skills={skillsTesting} title="Testing" />
+          <SkillsCard skills={skillsBackEnd} title="Back end" />
+          <SkillsCard skills={skillsTools} title="Tools" />
+        </div>
+        <WorkExperienceCard />
+      </div>
+      <SectionProjects /> */}
+      </main>
+    </>
   );
-}
+};
 
 export default App;

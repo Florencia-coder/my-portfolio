@@ -1,0 +1,30 @@
+.header-container {
+  background: linear-gradient(90deg, #e5b3c4, #faf0f3, #e5b3c4);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s ease infinite;
+  width: 100%;
+  min-width: 320px;
+  align-self: center;
+  text-align: center;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.header-container h1 {
+  font-family: "Merienda", cursive;
+  font-size: larger;
+  font-weight: 400;
+}

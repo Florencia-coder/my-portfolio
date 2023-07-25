@@ -1,0 +1,14 @@
+.containerWork {
+  box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.2);
+  width: 80vh;
+  padding: 3vh;
+  border-radius: 0.5vh;
+}
+.title-work {
+  font-size: 4vh;
+  font-family: "Edu TAS Beginner", cursive;
+  color: #3f0000;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 3vh;
+}

@@ -1,0 +1,6 @@
+.container-project {
+  box-shadow: -2px 3px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 1vh;
+  padding: 2vh;
+  background-color: #f7dee4;
+}
